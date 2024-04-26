@@ -19,11 +19,7 @@ function App() {
       //   ):(<Login onLogin = {handleLogin}/>
       //   )}
       //  </div>
-     <Router>
-         <switch>
-            <Route path='/' Component={mainroute}/>
-         </switch>
-     </Router>
+       <mainroute/>
   )
 }
 
